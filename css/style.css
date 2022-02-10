@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 65.5%;
+}
+
+body{
+    width: 100vw;
+    background: #18161A;
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(48, 1fr);
+    height: 900vh;
+    overflow-x: hidden;
+}
+
+.navbar{
+    grid-column: 2/16;
+    grid-row: 2/3;
+    z-index: 1;
+}
+
+.navbar-inner {
+    background:transparent;
+}
+
+.navbar-brand{
+    padding-left: 3%;
+    font-size: 2rem;
+    color: #18161A;
+}
+
+.navbar-dark .navbar-brand{
+    font-family: 'Hammersmith One', sans-serif;
+    padding-left: 3%;
+    font-size: 2rem;
+    color: #18161A;
+    letter-spacing: 0.3rem;
+}
+
+.navbar-toggler{
+    font-size: 2rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link{
+    color: black;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: black;
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover{
+    color: black;
+}
+
+#categoryCards{
+    grid-column: 2/16;
+    grid-row: 2/41;
+}
+
+.carousel{
+    margin-bottom: 20rem;
+    width: 60%;
+    /* position: relative; */
+}
+
+#carouselOne{
+    position: relative;
+}
+#carouselTwo{
+    position: relative;
+}
+#carouselThree{
+    position: relative;
+}
+
+#categoryHeading{
+    text-align: right;
+    color: #18161A;
+    font-family: 'Hammersmith One', sans-serif;
+    text-transform: uppercase;
+    /* -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white; */
+    font-size: 21rem;
+    position: absolute;
+    top: 10%;
+    right: -50%;
+    z-index: 1;
+    text-shadow: -1px 0 0 #d5cdc4, 0 1px 0 #d5cdc4, 1px 0 0 #d5cdc4, 0 -1px 0 #d5cdc4;
+}
+
+#items{
+    /* background: red; */
+    width: 50%;
+    height: 90vh;
+    position: absolute;
+    right: -60%;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul{
+    list-style: none;
+    color: whitesmoke;
+    font-size: 1.9rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+.price{
+    text-align: right;
+    padding-left: 3rem;
+
+}
+
+.orderBtn{
+    width: 60%;
+    height: 5rem;
+    margin-left: 2.5rem;
+    color: whitesmoke;
+    background: none;
+    border-radius: 0.4rem;
+    font-family: 'Hammersmith One', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    border: none;
+    outline: solid 1px whitesmoke;
+    letter-spacing: 0.1rem;
+}
+
+.orderBtn:hover{
+    color: violet;
+    outline: solid 1px violet;
+}
+
+#businessInfo{
+    /* background: red; */
+    grid-column: 2/16;
+    grid-row: 33/48;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.company{
+    color: whitesmoke;
+    font-size: 4rem;
+    font-family: 'Hammersmith One', sans-serif;
+    letter-spacing: 0.3rem;
+}
+
+.location{
+    font-size: 2.5rem;
+    line-height: 4rem;
+}
+
+.openHours{
+    margin-right: 5rem;
+    font-size: 2.5rem;
+    line-height: 4rem;
+}

@@ -1,0 +1,52 @@
+{
+    "products": [
+        {
+            "id": "carouselOne",
+            "category": "Cake",
+            "imageOne": "img/kaouther-djouada-hcEDfkiVmMI-unsplash.jpg",
+            "imageTwo": "img/deva-williamson-pZZJwwNPy2k-unsplash.jpg",
+            "imageThree": "img/katie-rosario-QNyRp21hb5I-unsplash.jpg",
+            "productOne": "Chocolate Mousse",
+            "productTwo": "Wedding",
+            "productThree": "Birthday",
+            "priceOne": "$35.00",
+            "priceTwo": "$250.00",
+            "priceThree": "$120.00"
+        },
+        {
+            "id": "carouselTwo",
+            "category": "Bread",
+            "price": 30,
+            "imageOne": "img/monika-grabkowska-mha2dvydACg-unsplash.jpg",
+            "imageTwo": "img/louise-lyshoj-WHJTaLqonkU-unsplash.jpg",
+            "imageThree": "img/megan-allen-oQpvta3hD2g-unsplash.jpg",
+            "productOne": "Sourdough",
+            "productTwo": "Rye",
+            "productThree": "Zopf",
+            "priceOne": "$7.49",
+            "priceTwo": "$8.99",
+            "priceThree": "$9.69"
+        },
+        {
+            "id": "carouselThree",
+            "category": "cookies",
+            "imageOne": "img/lindsey-savage-8DWN4Gui9Yk-unsplash.jpg",
+            "imageTwo": "img/eiliv-sonas-aceron-3jNTCCeC7gI-unsplash.jpg",
+            "imageThree": "img/casey-chae-ylJWeZyHSF0-unsplash.jpg",
+            "productOne": "Chocolate Chip",
+            "productTwo": "Chewy Chocolate",
+            "productThree": "Gingerbread",
+            "priceOne": "$15.00",
+            "priceTwo": "$18.49",
+            "priceThree": "$22.99"
+        }
+    ],
+    "store": {
+        "name": "BAKERY CO.",
+        "bio": "The finest baked goods",
+        "openingHours": "Mon - Fri, 8am - 5pm",
+        "street": "404 Bunny St",
+        "city": "Wellington, 6011",
+        "country": "New Zealand"
+    }
+}
